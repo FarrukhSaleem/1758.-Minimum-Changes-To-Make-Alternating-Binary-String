@@ -3,6 +3,7 @@ using System;
 class MainClass {
   public static void Main (string[] args) {
     Console.WriteLine(minOperations("0100"));
+    
   }
   public static int minOperations(string s) {
         int n = s.Length;
